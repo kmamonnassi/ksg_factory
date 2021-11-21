@@ -1,0 +1,141 @@
+﻿body {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#background {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index:0;
+    backdrop-filter: blur(6px);
+}
+
+#video-wrap video {
+    position: fixed;
+    width: 100%;
+    z-index:-1;
+}
+
+#main-contents {
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: center;
+}
+
+#logo {
+    display: inner-block;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    z-index:2;
+}
+
+#logo img {
+    width:70vw;
+    filter: drop-shadow(0 0 30px black);
+    animation: logo-animation 1s ease 0s 1 alternate none running;
+}
+
+@keyframes logo-animation {
+    0% {
+        width:1vw;
+    }
+
+    60% {
+        width:80vw;
+        transform: rotate(380deg);
+    }
+
+    100% {
+        width:70vw;
+        transform: rotate(360deg);
+    }
+}
+
+#youtube:hover {
+    filter: drop-shadow(0 0 30px white);
+}
+
+#youtube {
+    filter: drop-shadow(0 0 30px black);
+    transition: all 300ms 0s ease;
+    opacity: 1;
+    animation: youtube-animation 1s ease 0s 1 alternate none running;
+    margin-bottom:40px;
+}
+
+#youtube iframe {
+    width: 560px;
+    height: 315px; 
+}
+
+@keyframes youtube-animation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+a:hover {
+    color: white;
+    filter: drop-shadow(0 0 10px white);
+    text-decoration: underline;
+}
+
+a {
+    color: white;
+    transition: all 300ms 0s ease;
+    text-decoration: none;
+}
+
+#about-text {
+    position:relative;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#info-pane {
+    padding: 20px;
+    margin:0 auto;
+    text-align:center;
+    position:relative;
+    margin-top: 150px;
+    font-size: 24px;
+    background-color: rgba(0, 0, 0, 0.4);
+    width:80%;
+    filter: drop-shadow(0 0 2px black);
+}
+
+#info-pane table {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    border: 0;
+    border-spacing: 100px 15px;
+}
+
+.white-line {
+   border-bottom: 5px dashed #ffffff;
+}
+
+#screenshots table {
+    text-align: center;
+    border-spacing: 10px;
+}
+
+#screenshots table tr th img {
+    display: inner-block;
+    width: 20vw;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #009900;
+}
