@@ -41,19 +41,19 @@ body {
 	font-size:18px;
 }
 
-#game_contents {
+#game_swiper{
 	text-align:center;
 	background-color:#242424;
-	padding-top: 40px;
+	padding-top: 10px;
 	padding-bottom: 40px;
 }
 
-#game_contents  .swiper-container {
+#game_swiper  .swiper-container {
 	width: 1000px;
 	border: thick double white;
 }
 
-#game_contents  .swiper-container .swiper-slide img {
+#game_swiper .swiper-container .swiper-slide img {
 	width: 1000px;
 	text-align: center;
 }

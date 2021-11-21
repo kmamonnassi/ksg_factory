@@ -1,7 +1,8 @@
 const swipe_wrapper = document.getElementsByClassName("swiper-wrapper")[0];
 
 function Add(contentsName) {
-	swipe_wrapper.insertAdjacentHTML("beforeend", '<div class="swiper-slide"><a href="#"><img src="game_scrolls/' + contentsName + '/screenshot_1.png"></a></div>');
+	let path = "game_scrolls/" + contentsName;
+	swipe_wrapper.insertAdjacentHTML("beforeend", '<div class="swiper-slide"><a href="'+ path +'/index.html"><img src="' + path + '/screenshot_1.png"></a></div>');
 }
 
 Add("KARAGE");
