@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-<meta charset="utf-8">
-<title>KSG制作所</title>
-<link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <title>KSG制作所</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/css/swiper.min.css">
 </head>
 <body>
-  <div id="header">
-	<img id="logo" src="img/Logo.png"/>
-  </div>
+    <div id="header">
+	    <img id="logo" src="img/Logo.png"/>
+	    <ul>
+            <li><a href="#" class="select">作品情報</a></li>
+            <li><a href="#" class="select">リンク</a></li>
+        </ul>
+    </div>
 
-</body>
+    <div id="contents">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><a href="#"><img src="game_scrolls/KARAGE/screenshot_1.png"></a></div>
+                <div class="swiper-slide"><a href="#"><img src="game_scrolls/Disjointed/screenshot_1.png"></a></div>
+            </div>
+            <div class="swiper-button-prev"></div>
+	        <div class="swiper-button-next"></div>
+	        <div class="swiper-pagination swiper-pagination-white"></div>
+        </div>
+
+        <!--
+        <a class="twitter-timeline" data-lang="ja" data-width="600" data-height="600" data-theme="dark" href="https://twitter.com/daiki_shibata1?ref_src=twsrc%5Etfw">Tweets by daiki_shibata1</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        -->
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.3.3/js/swiper.min.js"></script>
+    <script src="index.js"></script>
+    </body>
 </html>
