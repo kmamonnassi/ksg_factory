@@ -41,21 +41,21 @@ body {
 	font-size:18px;
 }
 
-#game_swiper{
-	text-align:center;
-	background-color:#242424;
-	padding-top: 10px;
-	padding-bottom: 40px;
+#game_swiper .swiper-container .swiper-slide img {
+	width: 80%;
+	text-align: center;
 }
 
-#game_swiper  .swiper-container {
-	width: 1000px;
+#game_swiper .swiper-container {
+	width: 80%;
 	border: thick double white;
 }
 
-#game_swiper .swiper-container .swiper-slide img {
-	width: 1000px;
+#game_swiper {
 	text-align: center;
+	background-color: #242424;
+	padding-top: 10px;
+	padding-bottom: 40px;
 }
 
 #info_contents {
