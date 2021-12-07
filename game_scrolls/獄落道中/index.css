@@ -7,6 +7,8 @@ body {
     padding: 0;
     height: 100%;
     background-color: black;
+    color: white;
+    font-size: 24px;
 }
 
 #wrap {
@@ -26,6 +28,9 @@ body {
     height: 100%;
     background-image: url('img/hell_2.png');
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #background_3 {
@@ -33,6 +38,9 @@ body {
     height: 100%;
     background-image: url('img/hell_3.png');
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -44,12 +52,13 @@ body {
 }
 
 #Logo img {
+    width: 65%;
 }
 
 #Logo {
     padding: 30px;
     text-align: center;
-    filter: drop-shadow(0px 0px 16px #ffaa00);
+    filter: drop-shadow(0px 0px 16px #ff8800);
 }
 
 #youtube iframe {
@@ -74,4 +83,30 @@ body {
 .fade_3 {
     box-shadow: 0px 0px 10px 10px #fff899;
     width: 100%;
+}
+
+#about_pane {
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+#screenshots table tr th img {
+    width: 15em;
+}
+
+#screenshots table {
+    text-align: center;
+    display: inline-block;
+}
+
+#screenshots {
+    width: 90%;
+    height: 90%;
+    background-color: black;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    display: inline-block;
 }
