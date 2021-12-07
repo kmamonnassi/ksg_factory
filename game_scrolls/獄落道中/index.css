@@ -1,0 +1,73 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: black;
+}
+
+#wrap {
+    height: 100%;
+}
+
+#background_1 {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/hell_1.png');
+}
+
+
+#background_2 {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/hell_2.png');
+}
+
+#background_3 {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/hell_3.png');
+}
+
+
+#background_4 {
+    width: 100%;
+    height: 100%;
+    background-image: url('img/hell_4.png');
+}
+
+#Logo img {
+}
+
+#Logo {
+    padding: 30px;
+    text-align: center;
+    filter: drop-shadow(0px 0px 16px #ffaa00);
+}
+
+#youtube iframe {
+    width: 480px;
+    height: 270px;
+}
+
+#youtube {
+    text-align: center;
+}
+
+.fade_1 {
+    box-shadow: 0px 0px 10px 10px #691a1a;
+    width: 100%;
+}
+
+.fade_2 {
+    box-shadow: 0px 0px 10px 10px #691a1a;
+    width: 100%;
+}
+
+.fade_3 {
+    box-shadow: 0px 0px 10px 10px #fff899;
+    width: 100%;
+}
