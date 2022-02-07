@@ -8,6 +8,7 @@ function Add(contentsName) {
 Add("KARAGE");
 Add("Disjointed");
 Add("獄落道中");
+Add("TweetBattler");
 
 //スワイプでスクロールできるように
 var mySwiper = new Swiper('.swiper-container', {
