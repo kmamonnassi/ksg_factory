@@ -7,7 +7,7 @@ function Add(contentsName) {
 
 Add("KARAGE");
 Add("Disjointed");
-Add("獄落道中");
+Add("RoadsideInHell");
 
 //スワイプでスクロールできるように
 var mySwiper = new Swiper('.swiper-container', {
